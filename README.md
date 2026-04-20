@@ -88,6 +88,15 @@ cd finance-ledger-api
 
 ---
 
+## 🗄️ Database Setup
+
+This project uses Entity Framework Core with migrations.
+
+To create the database:
+
+```bash
+dotnet ef database update
+
 ### 2. Run the application
 
 ```bash
