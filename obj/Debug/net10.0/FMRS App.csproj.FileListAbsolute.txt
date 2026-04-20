@@ -1,0 +1,36 @@
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\bin\Debug\net10.0\appsettings.Development.json
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\bin\Debug\net10.0\appsettings.json
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\bin\Debug\net10.0\FMRS App.staticwebassets.endpoints.json
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\bin\Debug\net10.0\FMRS App.exe
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\bin\Debug\net10.0\FMRS App.deps.json
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\bin\Debug\net10.0\FMRS App.runtimeconfig.json
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\bin\Debug\net10.0\FMRS App.dll
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\bin\Debug\net10.0\FMRS App.pdb
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\bin\Debug\net10.0\Microsoft.OpenApi.dll
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\FMRS App.csproj.AssemblyReference.cache
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\FMRS App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\FMRS App.AssemblyInfoInputs.cache
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\FMRS App.AssemblyInfo.cs
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\FMRS App.csproj.CoreCompileInputs.cache
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\FMRS App.MvcApplicationPartsAssemblyInfo.cs
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\FMRS App.MvcApplicationPartsAssemblyInfo.cache
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\scopedcss\bundle\FMRS App.styles.css
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\staticwebassets.build.json
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\staticwebassets.development.json
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\swae.build.ex.cache
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\FMRS App.csproj.Up2Date
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\FMRS App.dll
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\refint\FMRS App.dll
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\FMRS App.pdb
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\FMRS App.genruntimeconfig.cache
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\ref\FMRS App.dll
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
