@@ -48,6 +48,140 @@ CodeCoverage/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+## .NET / ASP.NET Core - Professional .gitignore
+
+############################
+
+# Build results
+
+############################
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+out/
+
+############################
+
+# Logs
+
+############################
+[Ll]og/
+[Ll]ogs/
+*.log
+
+############################
+
+# Visual Studio / VS Code
+
+############################
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+############################
+
+# Rider / JetBrains
+
+############################
+.idea/
+*.sln.iml
+
+############################
+
+# .NET Core
+
+############################
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+############################
+
+# NuGet
+
+############################
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+*.nuget.props
+*.nuget.targets
+
+############################
+
+# Test Results
+
+############################
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+
+############################
+
+# Code Coverage
+
+############################
+coverage/
+CodeCoverage/
+
+############################
+
+# Database files (local)
+
+############################
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.sqlite3
+
+############################
+
+# App settings (local secrets)
+
+############################
+appsettings.Development.json
+
+############################
+
+# OS generated files
+
+############################
+.DS_Store
+Thumbs.db
+
+############################
+
+# Temporary files
+
+############################
+~$*
+*~
+*.tmp
+*.temp
+
+############################
+
+# Others
+
+############################
+ScaffoldingReadMe.txt
+*.binlog
+
+
 # NUnit
 *.VisualState.xml
 TestResult.xml
