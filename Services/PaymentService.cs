@@ -15,7 +15,7 @@ public class PaymentService
 
     public void MakePayment(int invoiceId, decimal amount)
     {
-        var invoice = _invoiceService.GetInvoice(invoiceId);
+        var invoice = _invoiceService.GetById(invoiceId);
 
         if (invoice == null)
         {

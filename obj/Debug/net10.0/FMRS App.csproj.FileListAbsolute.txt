@@ -34,3 +34,4 @@ D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\D
 D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Learning .Net\Financial Management & Receivables System (FMRS)\FMRS App\obj\Debug\net10.0\FMRS App.sourcelink.json
