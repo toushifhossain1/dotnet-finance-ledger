@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FMRS App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a613e4f2e00f19e4d24689f97883f898e628f770")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+755182827279530c00bda6f81247df3959a4cefd")]
 [assembly: System.Reflection.AssemblyProductAttribute("FMRS App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FMRS App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

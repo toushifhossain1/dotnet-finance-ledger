@@ -1,35 +1,43 @@
 using FinanceSystem.Models;
+
 namespace FinanceSystem.Services;
 
 public class PaymentService
 {
-    private readonly List<Invoice> _invoices;
-    
-    public PaymentService(List<Invoice> invoices)
+    private readonly InvoiceService _invoiceService;
+
+    public PaymentService(InvoiceService invoiceService)
     {
-        _invoices = invoices;
+        _invoiceService = invoiceService;
     }
 
-    public void MakePayment (int incoideID, decimal amount)
+    public void MakePayment(int invoiceId, decimal amount)
     {
-        var invoice = _invoices.FirstOrDefault(i => i.InvoiceId == incoideID);
-        
-        if (invoice == null )
+        var invoice = _invoiceService.GetInvoice(invoiceId);
+
+        if (invoice == null)
         {
             throw new Exception("Invoice not found");
         }
 
-        if (amount <=0)
+        if (amount <= 0)
         {
             throw new Exception("Invalid payment amount");
         }
 
-        decimal due = invoice.TotalAmount - invoice.Payments.Sum(p => p.Amount);
-
-        if (amount > due)
+        if (amount > invoice.DueAmount)
         {
             throw new Exception("Payment amount exceeds invoice due");
         }
 
+        var payment = new Payment
+        {
+            PaymentId = 0, // temporary (DB will handle later)
+            InvoiceId = invoiceId,
+            Amount = amount,
+            Date = DateTime.Now
+        };
+
+        invoice.Payments.Add(payment);
     }
 }
