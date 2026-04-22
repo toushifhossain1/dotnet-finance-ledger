@@ -5,10 +5,12 @@ namespace FinanceSystem.Services;
 public class PaymentService
 {
     private readonly InvoiceService _invoiceService;
+    private readonly JournalService _journalService;
 
-    public PaymentService(InvoiceService invoiceService)
+    public PaymentService(InvoiceService invoiceService, JournalService journalService)
     {
         _invoiceService = invoiceService;
+        _journalService = journalService;
     }
 
     public void MakePayment(int invoiceId, decimal amount)
@@ -39,5 +41,26 @@ public class PaymentService
         };
 
         invoice.Payments.Add(payment);
+
+        var lines = new List<JournalLine>
+            {
+                new JournalLine
+                {
+                    AccountId = 1, // Cash
+                    DebitAmount = amount,
+                    CreditAmount = 0
+                },
+                new JournalLine
+                {
+                    AccountId = 2, // Accounts Receivable
+                    DebitAmount = 0,
+                    CreditAmount = amount
+                }
+            };
+
+            _journalService.CreateJournalEntry(
+                $"Payment received for Invoice {invoiceId}",
+                lines
+            );
     }
 }
