@@ -7,7 +7,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
-// Register InvoiceService so DI can inject it into InvoiceController
+// Register services so DI can inject them into their respective controllers
 builder.Services.AddSingleton<InvoiceService>();
 builder.Services.AddSingleton<PaymentService>();
 builder.Services.AddSingleton<JournalService>();

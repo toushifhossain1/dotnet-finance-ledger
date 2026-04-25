@@ -10,12 +10,12 @@ This project simulates a real-world ERP finance module, focusing on business log
 
 ## 🚀 Features
 
-* 📘 Chart of Accounts (Asset, Liability, Income, Expense)
-* 🔁 Double-entry Journal System (Debit = Credit validation)
-* 🧾 Invoice Management (Accounts Receivable)
-* 💳 Payment Processing with validation (no overpayment)
-* 🔗 Automatic financial tracking via journal entries
-* 🧠 Business rule enforcement for financial integrity
+- 📘 Chart of Accounts (Asset, Liability, Income, Expense)
+- 🔁 Double-entry Journal System (Debit = Credit validation)
+- 🧾 Invoice Management (Accounts Receivable)
+- 💳 Payment Processing with validation (no overpayment)
+- 🔗 Automatic financial tracking via journal entries
+- 🧠 Business rule enforcement for financial integrity
 
 ---
 
@@ -24,10 +24,11 @@ This project simulates a real-world ERP finance module, focusing on business log
 The project follows a layered architecture:
 
 ```
-/Controllers   → API layer  
-/Services      → Business logic  
-/Data          → Database context (EF Core)  
-/Models        → Domain entities  
+/Controllers   → API layer
+/Services      → Business logic
+/Data          → Database context (EF Core)
+/Models        → Domain entities
+/DTOs          → External API entities
 ```
 
 This structure reflects real-world backend and ERP system design.
@@ -36,24 +37,24 @@ This structure reflects real-world backend and ERP system design.
 
 ## 🧠 Core Concepts Implemented
 
-* Double-entry accounting system
-* Separation of JournalEntry and JournalLine
-* Financial validation rules:
+- Double-entry accounting system
+- Separation of JournalEntry and JournalLine
+- Financial validation rules:
+  - Total Debit = Total Credit
+  - No overpayment allowed
+  - Transaction integrity enforcement
 
-  * Total Debit = Total Credit
-  * No overpayment allowed
-  * Transaction integrity enforcement
-* Domain-driven thinking for finance systems
+- Domain-driven thinking for finance systems
 
 ---
 
 ## 🛠️ Tech Stack
 
-* C#
-* .NET (ASP.NET Core Web API)
-* Entity Framework Core
-* SQL Server / SQLite (configurable)
-* Swagger (API testing)
+- C#
+- .NET (ASP.NET Core Web API)
+- Entity Framework Core
+- SQL Server / SQLite (configurable)
+- Swagger (API testing)
 
 ---
 
@@ -97,6 +98,7 @@ To create the database:
 ```bash
 dotnet ef database update
 ```
+
 ### 2. Run the application
 
 ```bash
@@ -115,20 +117,20 @@ http://localhost:xxxx/swagger
 
 ## 🔒 Business Rules
 
-* Journal entries must be balanced
-* Each journal line must be either debit or credit
-* Payments cannot exceed invoice due
-* Financial data integrity is enforced at service level
+- Journal entries must be balanced
+- Each journal line must be either debit or credit
+- Payments cannot exceed invoice due
+- Financial data integrity is enforced at service level
 
 ---
 
 ## 📈 Future Improvements
 
-* Trial Balance & Financial Reports
-* Authentication & Role Management
-* Multi-currency support
-* Integration with ERP systems (e.g., Business Central)
-* Advanced validation and audit logs
+- Trial Balance & Financial Reports
+- Authentication & Role Management
+- Multi-currency support
+- Integration with ERP systems (e.g., Business Central)
+- Advanced validation and audit logs
 
 ---
 
