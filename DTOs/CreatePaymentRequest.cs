@@ -1,3 +1,5 @@
+namespace FinanceSystem.DTOs;
+
 public class CreatePaymentRequest
 {
     public int InvoiceId { get; set; }
